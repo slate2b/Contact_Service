@@ -5,6 +5,8 @@ This Contact Service project is part of a small collection of back-end services 
 
 The JUnit tests for the project are designed to maximize test coverage and value.  JUnit tests in the ContactTest class and ContactServiceTest class are implemented with input values which clearly demonstrate whether or not each component meets the specification with as much code coverage as possible.  Coverage percentages for this service are 100% for the Contact class and 97.1% for the ContactService class. 
 
+![image](https://user-images.githubusercontent.com/88697660/192366420-f8c5c8c1-8dfe-4ce7-8b75-21afa551f42c.png)
+
 The Contact class is designed to meet the following requirements:
 
 * contactId's must be unique
@@ -37,5 +39,3 @@ The Contact Service is designed to throw exceptions for the following:
 The updateContact method is designed to update all attributes except for the contactId, thereby fulfilling the business reqirement that a contactId can not be modified.
 
 NOTE: This service is implemented using a simple ArrayList data structure and a linear search for testing purposes, but the services could easily be adapted to implementations utilizing more complex data structures and more efficienct search algorithms.
-
-![image](https://user-images.githubusercontent.com/88697660/192366420-f8c5c8c1-8dfe-4ce7-8b75-21afa551f42c.png)
