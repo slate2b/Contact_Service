@@ -1,4 +1,5 @@
 # Contact_Service
+---
 by slate2b
 ---
 This Contact Service project is part of a small collection of back-end services developed for a hypothetical Mobile App, utilizing JUnit tests and coverage analysis tools to reinforce quality assurance for the service.  The Contact Service is designed to allow a user to manage their customer contacts.  It includes a Contact class for Contact objects and a Contact Service class which provides the necessary back-end functionality for the service.  The Contact class contains basic getters and setters along with exception-handling to meet specifications.  The Contact Service class contains methods which  provide functionality to add a contact, delete a contact, and update a contact.  
